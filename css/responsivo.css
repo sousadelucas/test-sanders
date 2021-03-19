@@ -1,0 +1,224 @@
+@media only screen and (max-width: 787px) {
+
+    body {
+        width: 100%
+    }
+  .menu-container {
+    margin-left: 10px;
+  }
+
+  .back-1 {
+    display: none;
+  }
+
+  .img-menor {
+    display: none;
+  }
+
+  .back-2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .img-maior {
+    position: relative;
+    max-width: 200px;
+    margin-left: 160px;
+    margin-top: -10px;
+  }
+
+  .promo {
+    width: 100px;
+    height: 200px;
+    margin: 50px 70px 0;
+    padding: 20px;
+  }
+
+  .promo h1 {
+    font-size: 3rem;
+  }
+
+  #off {
+    margin-left: 0px;
+  }
+
+  .btn {
+    background: #000;
+    position: absolute;
+    margin-top: -60px;
+  }
+
+  .btn:hover {
+    color: #000;
+    border-color: #000;
+    background: #fff;
+  }
+
+  .montagem-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .montagem-container ul {
+    margin-left: 40px;
+  }
+
+  .montagem-container img {
+    max-width: 300px;
+    margin-bottom: 130px;
+  }
+
+  .montagem-container h2 {
+    font-size: 3rem;
+  }
+
+  .row {
+    display: grid;
+    width: 360px;
+    justify-content: center;
+  }
+
+  .mais-vendidos h3 {
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: left;
+  }
+
+  .mais-vendidos .img-row img {
+    width: 260px;
+    margin-left: 35px;
+  }
+
+  .mais-vendidos .img-row p {
+    font-size: 0.7rem;
+    margin-left: 35px;
+  }
+
+  .mais-vendidos .img-row p {
+    margin-bottom: 20px;
+  }
+
+  .mais-vendidos .img-row .btn-comprar {
+    margin-left: 35px;
+    margin-top: 12px;
+    width: 130px;
+  }
+
+  .mais-vendidos .img-row .btn-olhar {
+    margin-left: 40px;
+    margin-top: 12px;
+  }
+
+  .up-container p {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 200px 0 0 0;
+  }
+
+  .up-container h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    margin-left: 10px;
+  }
+
+  .up-container button {
+    width: 350px;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+
+  .up-container button:hover {
+    color: #494a4a;
+    border-color: #494a4a;
+  }
+
+  .urban-container {
+    width: 700px;
+  }
+
+  .urban-container img {
+    width: 122px;
+  }
+
+  .urban-container li:first-child {
+    display: none;
+  }
+
+  .urban-container li:last-child {
+    display: none;
+  }
+
+  .newsletter {
+    padding: 0px;
+  }
+
+  .cadastre-container {
+    max-width: 380px;
+    height: 200px;
+    margin: 20px 0;
+  }
+
+  .cadastre-info {
+    float: none;
+  }
+
+  .cadastre-info h3 {
+    color: #656667;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .cadastre-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .btn-cadastrar {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    width: 340px;
+  }
+
+  .informacoes-gerais-container {
+    width: 360px;
+    display: grid;
+  }
+
+  .informacoes-gerais h4::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #494a4a;
+    margin: 8px auto;
+  }
+
+  .js-accordion div {
+    display: none;
+  }
+
+  .js-accordion h4:after {
+    content: "↴";
+    margin-left: 8px;
+    color: #222;
+  }
+
+  .js-accordion h4.ativo:after {
+    content: "⬏";
+    margin-left: 8px;
+    color: #222;
+  }
+
+  .js-accordion div .ativo {
+    display: block;
+    animation: slideDown 0.5s forwards;
+  }
+
+  .pgto {
+    display: grid;
+  }
+
+
+
+}
