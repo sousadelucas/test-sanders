@@ -1,5 +1,9 @@
 @media only screen and (max-width: 787px) {
 
+
+  body {
+    width: 100%;
+  }
   .menu-nav {
     width: 380px;
   }
@@ -129,7 +133,7 @@
 
   .up-container button {
     width: 300px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: 40px;
   }
 
