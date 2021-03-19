@@ -250,10 +250,10 @@ button {
 
 .img-row .btn-olhar {
   position: absolute;
-  top: 74.5%;
+  top: 64.7%;
   left: 42.5%;
   padding: 15px;
-  width: 130px;
+  width: 129px;
 
   background: #000;
   opacity: 0.5;
@@ -263,7 +263,7 @@ button {
 
 .img-row .btn-comprar {
   position: absolute;
-  top: 74.5%;
+  top: 64.7%;
   left: 0%;
   padding: 15px;
   width: 104px;
@@ -277,7 +277,19 @@ button {
 .row p {
   color: #656667;
   font-size: 16px;
+  margin-bottom: 5px;
 }
+
+.preco-original {
+  color: #BA0038;
+  text-decoration: line-through;
+}
+
+.desconto {
+  color: #000;
+  font-weight: bold;
+}
+
 
 /* container com img de back */
 .up-container {

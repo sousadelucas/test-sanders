@@ -1,8 +1,9 @@
 @media only screen and (max-width: 787px) {
 
-    body {
-        width: 100%
-    }
+  .menu-nav {
+    width: 380px;
+  }
+
   .menu-container {
     margin-left: 10px;
   }
@@ -55,7 +56,7 @@
   }
 
   .montagem-container {
-    width: 100%;
+    width: 380px;
     margin-left: 0;
   }
 
@@ -74,8 +75,12 @@
 
   .row {
     display: grid;
-    width: 360px;
+    width: 380px;
     justify-content: center;
+  }
+
+  .mais-vendidos {
+    width: 380px;
   }
 
   .mais-vendidos h3 {
@@ -86,29 +91,30 @@
 
   .mais-vendidos .img-row img {
     width: 260px;
-    margin-left: 35px;
   }
 
   .mais-vendidos .img-row p {
     font-size: 0.7rem;
-    margin-left: 35px;
   }
 
   .mais-vendidos .img-row p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   .mais-vendidos .img-row .btn-comprar {
-    margin-left: 35px;
-    margin-top: 12px;
+    margin-top: 37px;
     width: 130px;
   }
 
   .mais-vendidos .img-row .btn-olhar {
-    margin-left: 40px;
-    margin-top: 12px;
+    margin-left: 20px;
+    margin-top: 37px;
   }
 
+
+  .up-container {
+    width: 380px;
+  }
   .up-container p {
     text-align: center;
     font-size: 2.5rem;
@@ -133,7 +139,7 @@
   }
 
   .urban-container {
-    width: 700px;
+    width: 380px;
   }
 
   .urban-container img {
@@ -159,6 +165,7 @@
   }
 
   .cadastre-info {
+    max-width: 380px;
     float: none;
   }
 
@@ -181,7 +188,7 @@
   }
 
   .informacoes-gerais-container {
-    width: 360px;
+    width: 380px;
     display: grid;
   }
 
@@ -194,31 +201,9 @@
     margin: 8px auto;
   }
 
-  .js-accordion div {
-    display: none;
-  }
-
-  .js-accordion h4:after {
-    content: "↴";
-    margin-left: 8px;
-    color: #222;
-  }
-
-  .js-accordion h4.ativo:after {
-    content: "⬏";
-    margin-left: 8px;
-    color: #222;
-  }
-
-  .js-accordion div .ativo {
-    display: block;
-    animation: slideDown 0.5s forwards;
-  }
-
   .pgto {
     display: grid;
   }
-
 
 
 }
